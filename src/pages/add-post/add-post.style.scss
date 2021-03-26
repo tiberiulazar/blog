@@ -1,0 +1,39 @@
+.add-post {
+  background-color: #e4e6ec;
+  padding: 2rem 0;
+
+  &__header {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    display: block;
+    width: 100%;
+    padding: 20px 20px;
+    border: 0;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 24px 24px -18px #45688154, 0 9px 45px 0 #7277a01f;
+    border-radius: 5px;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  &__editor {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem 0;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 24px 24px -18px #45688154, 0 9px 45px 0 #7277a01f;
+  }
+
+  &__submit {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,33 @@
+.auth-page {
+  padding: 80px 0;
+  max-width: 1040px;
+  margin: 0 auto;
+
+  .container {
+    justify-content: space-between;
+  }
+}
+
+.auth {
+  &__container {
+    flex-basis: 40%;
+  }
+
+  &__submit {
+    background-color: #7a83a0;
+    padding: 12px 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #f1f1f1;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+}

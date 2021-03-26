@@ -1,0 +1,50 @@
+.header {
+  padding: 2rem 2rem;
+  &__row {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 2rem;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  &__menu {
+    display: flex;
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 500;
+      color: #989ca5;
+      padding-bottom: 4px;
+      border-bottom: 1px solid transparent;
+      transition: all 0.3s;
+    }
+
+    &:hover,
+    &:active {
+      border-bottom: 1px solid #fd3082;
+      color: #fd3082;
+    }
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+
+    &--active:link,
+    &--active:visited {
+      border-bottom: 1px solid #fd3082;
+      color: #fd3082;
+    }
+  }
+}

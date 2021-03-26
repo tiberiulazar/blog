@@ -1,0 +1,45 @@
+.post-card {
+  flex-basis: 47%;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+
+  cursor: pointer;
+
+  border-bottom: 1px solid #7a83a0;
+
+  &__img {
+    height: 240px;
+    background-image: linear-gradient(to right bottom, #a3a4bf, #7a83a0);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: auto;
+  }
+
+  &__category {
+    padding: 4px 8px;
+    background-color: #7a83a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #f1f1f1;
+    font-size: 0.75rem;
+  }
+}
